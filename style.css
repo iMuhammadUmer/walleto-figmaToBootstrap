@@ -46,6 +46,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    margin-top: 60px;
 }
 
 section {
@@ -53,14 +54,36 @@ section {
     margin-bottom: 100px;
 }
 
+section ul {
+    padding-left: 0rem;
+
+}
+
 section li {
-    list-style-image: url('./assets/images/check.svg');
+    list-style: none;
+    margin-bottom: 9px;
+    margin-right: 10px;
+}
+
+section li img {
+    /* list-style: none; */
+    margin-right: 15px;
 }
 
 .trustSection {
     /* height: 645px; */
     background-color: white;
     border-radius: 33px;
+}
+
+.hero-heading {
+    width: 547px;
+    margin-bottom: 53px;
+}
+
+p {
+    /* width: 547px; */
+    margin-bottom: 40px;
 }
 
 footer {
